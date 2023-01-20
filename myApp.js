@@ -4,7 +4,8 @@ const app = express();
 
 app.use(helmet.hidePoweredBy()); // hide how website is powered
 app.use(helmet.frameguard({action: 'deny'})); // prevent clickjacking attempts
-app.use(helmet.xssFilter({})); // prevent malicious scripts being introduced by sanitizing inputs
+app.use(helmet.xssFilter({})); // prevent malicious scripts being introduced by sanitizing inputs on each request
+app.use(helmet.noSniff({})); // instructs browser to not bypass the content type
 
 
 
