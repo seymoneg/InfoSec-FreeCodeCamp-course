@@ -2,6 +2,7 @@ const express = require('express');
 const helmet = require('helmet');
 const app = express();
 
+app.use(helmet.hidePoweredBy()); // hide how website is powered
 
 
 
