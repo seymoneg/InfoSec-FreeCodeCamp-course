@@ -1,4 +1,3 @@
 # Information Security with HelmetJS
 
-This is the boilerplate for the Information Security lessons. Instructions for completing these lessons start at https://www.freecodecamp.org/learn/information-security/information-security-with-helmetjs/
-# InfoSec-FreeCodeCamp-course
+Completing the Information Security course from Free Code Camp: https://www.freecodecamp.org/learn/information-security/information-security-with-helmetjs/
