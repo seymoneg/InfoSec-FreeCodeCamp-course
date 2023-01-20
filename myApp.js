@@ -3,7 +3,7 @@ const helmet = require('helmet');
 const app = express();
 
 app.use(helmet.hidePoweredBy()); // hide how website is powered
-
+app.use(helmet.frameguard({action: 'deny'})); // prevent clickjacking attempts
 
 
 
